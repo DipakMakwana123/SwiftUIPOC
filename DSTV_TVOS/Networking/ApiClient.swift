@@ -3,7 +3,7 @@ import Foundation
 import RxSwift
 
 
-class ApiClient {
+/*class ApiClient {
     
     // MARK: - Properties
     
@@ -108,3 +108,4 @@ class ApiClient {
         return dataTask
     }
 }
+*/

@@ -29,9 +29,10 @@
 		7A06DF69296827EE00DDDBC5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A06DF68296827EE00DDDBC5 /* HomeViewModel.swift */; };
 		7A06DF71296FDB2900DDDBC5 /* ChannelProgramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A06DF70296FDB2900DDDBC5 /* ChannelProgramView.swift */; };
 		7A07C87829CF3E1C00D7BFBC /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07C87629CF3E1C00D7BFBC /* ApiClient.swift */; };
-		7A07C89329CF40F700D7BFBC /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 7A07C89229CF40F700D7BFBC /* RxCocoa */; };
-		7A07C89529CF40F700D7BFBC /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 7A07C89429CF40F700D7BFBC /* RxRelay */; };
-		7A07C89729CF40F700D7BFBC /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7A07C89629CF40F700D7BFBC /* RxSwift */; };
+		7A07C8AB29D0431F00D7BFBC /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 7A07C8AA29D0431F00D7BFBC /* RxCocoa */; };
+		7A07C8AD29D0431F00D7BFBC /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 7A07C8AC29D0431F00D7BFBC /* RxRelay */; };
+		7A07C8AF29D0431F00D7BFBC /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7A07C8AE29D0431F00D7BFBC /* RxSwift */; };
+		7A07C8B229D0435400D7BFBC /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7A07C8B129D0435400D7BFBC /* RxSwift */; };
 		7A0B1B342982B0B00004FD71 /* TvShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0B1B332982B0B00004FD71 /* TvShowView.swift */; };
 		7A0B1B362982E0E70004FD71 /* CustomFocusedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0B1B352982E0E70004FD71 /* CustomFocusedButton.swift */; };
 		7A0BF24129584847001DF15D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BF24029584847001DF15D /* Color.swift */; };
@@ -223,9 +224,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A07C89729CF40F700D7BFBC /* RxSwift in Frameworks */,
-				7A07C89529CF40F700D7BFBC /* RxRelay in Frameworks */,
-				7A07C89329CF40F700D7BFBC /* RxCocoa in Frameworks */,
+				7A07C8AF29D0431F00D7BFBC /* RxSwift in Frameworks */,
+				7A07C8AD29D0431F00D7BFBC /* RxRelay in Frameworks */,
+				7A07C8AB29D0431F00D7BFBC /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +248,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A07C8B229D0435400D7BFBC /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +318,13 @@
 				7A06DF64296827AF00DDDBC5 /* Models.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		7A07C8B029D0432E00D7BFBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7A0BF23F29584832001DF15D /* Utility */ = {
@@ -398,6 +407,7 @@
 				7A0CBB37294C32FF0016E2DF /* DSTV_TVOSTests */,
 				7A0CBB41294C32FF0016E2DF /* DSTV_TVOSUITests */,
 				7A0CBAF5294C32810016E2DF /* Products */,
+				7A07C8B029D0432E00D7BFBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -640,9 +650,9 @@
 			);
 			name = DSTV_UI;
 			packageProductDependencies = (
-				7A07C89229CF40F700D7BFBC /* RxCocoa */,
-				7A07C89429CF40F700D7BFBC /* RxRelay */,
-				7A07C89629CF40F700D7BFBC /* RxSwift */,
+				7A07C8AA29D0431F00D7BFBC /* RxCocoa */,
+				7A07C8AC29D0431F00D7BFBC /* RxRelay */,
+				7A07C8AE29D0431F00D7BFBC /* RxSwift */,
 			);
 			productName = DSTV_UI;
 			productReference = 7A0CBAF4294C32810016E2DF /* DSTV_UI.app */;
@@ -697,6 +707,9 @@
 			dependencies = (
 			);
 			name = DSTV_TVOS;
+			packageProductDependencies = (
+				7A07C8B129D0435400D7BFBC /* RxSwift */,
+			);
 			productName = DSTV_TVOS;
 			productReference = 7A0CBB25294C32FC0016E2DF /* DSTV_TVOS.app */;
 			productType = "com.apple.product-type.application";
@@ -781,7 +794,7 @@
 			);
 			mainGroup = 7A0CBAEB294C32810016E2DF;
 			packageReferences = (
-				7A07C89129CF40F700D7BFBC /* XCRemoteSwiftPackageReference "RxSwift" */,
+				7A07C8A929D0431F00D7BFBC /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = 7A0CBAF5294C32810016E2DF /* Products */;
 			projectDirPath = "";
@@ -1450,30 +1463,35 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		7A07C89129CF40F700D7BFBC /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+		7A07C8A929D0431F00D7BFBC /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
 			requirement = {
-				kind = exactVersion;
-				version = 5.1.1;
+				branch = main;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		7A07C89229CF40F700D7BFBC /* RxCocoa */ = {
+		7A07C8AA29D0431F00D7BFBC /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7A07C89129CF40F700D7BFBC /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 7A07C8A929D0431F00D7BFBC /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
 		};
-		7A07C89429CF40F700D7BFBC /* RxRelay */ = {
+		7A07C8AC29D0431F00D7BFBC /* RxRelay */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7A07C89129CF40F700D7BFBC /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 7A07C8A929D0431F00D7BFBC /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxRelay;
 		};
-		7A07C89629CF40F700D7BFBC /* RxSwift */ = {
+		7A07C8AE29D0431F00D7BFBC /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7A07C89129CF40F700D7BFBC /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 7A07C8A929D0431F00D7BFBC /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		7A07C8B129D0435400D7BFBC /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A07C8A929D0431F00D7BFBC /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
 		};
 /* End XCSwiftPackageProductDependency section */

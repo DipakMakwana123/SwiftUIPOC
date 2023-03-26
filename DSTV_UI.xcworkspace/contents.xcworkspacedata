@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:DSTV_UI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DSTV_UI">
+   </FileRef>
+   <FileRef
+      location = "group:DSTV_UITests">
+   </FileRef>
+   <FileRef
+      location = "group:DSTV_UIUITests">
+   </FileRef>
+   <FileRef
+      location = "group:DSTV_TVOS">
+   </FileRef>
+   <FileRef
+      location = "group:DSTV_TVOSTests">
+   </FileRef>
+   <FileRef
+      location = "group:DSTV_TVOSUITests">
+   </FileRef>
+</Workspace>
