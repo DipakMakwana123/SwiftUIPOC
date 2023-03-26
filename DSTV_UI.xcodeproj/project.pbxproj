@@ -1,0 +1,1482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A036DB62997A71F00ACD9DE /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A036DB52997A71F00ACD9DE /* SettingViewModel.swift */; };
+		7A039A8429CDEEEF00A50773 /* KidsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A039A8329CDEEEF00A50773 /* KidsView.swift */; };
+		7A039A8629CDEF4000A50773 /* KidsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A039A8529CDEF4000A50773 /* KidsViewModel.swift */; };
+		7A039A8929CE019B00A50773 /* SportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A039A8829CE019B00A50773 /* SportsView.swift */; };
+		7A039A8B29CE01D500A50773 /* SportsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A039A8A29CE01D400A50773 /* SportsViewModel.swift */; };
+		7A039A8E29CE036100A50773 /* MyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A039A8D29CE036100A50773 /* MyListViewModel.swift */; };
+		7A039A9029CE036E00A50773 /* MyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A039A8F29CE036E00A50773 /* MyListView.swift */; };
+		7A062B232951D6A500278C14 /* LiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A062B222951D6A500278C14 /* LiveView.swift */; };
+		7A062B252951D6D700278C14 /* CatchUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A062B242951D6D700278C14 /* CatchUpView.swift */; };
+		7A062B292951D6F200278C14 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A062B282951D6F200278C14 /* MoreView.swift */; };
+		7A062B2F2951DA3B00278C14 /* LiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A062B222951D6A500278C14 /* LiveView.swift */; };
+		7A062B322951DA4600278C14 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A062B282951D6F200278C14 /* MoreView.swift */; };
+		7A062B342951EDF800278C14 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A062B332951EDF800278C14 /* CollectionView.swift */; };
+		7A062B382951EE4000278C14 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A062B372951EE4000278C14 /* DataModel.swift */; };
+		7A062B392951EE4000278C14 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A062B372951EE4000278C14 /* DataModel.swift */; };
+		7A06DF5F29669D5800DDDBC5 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A06DF5E29669D5800DDDBC5 /* SearchView.swift */; };
+		7A06DF622968258300DDDBC5 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A06DF612968258300DDDBC5 /* Protocols.swift */; };
+		7A06DF632968258A00DDDBC5 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A06DF612968258300DDDBC5 /* Protocols.swift */; };
+		7A06DF65296827AF00DDDBC5 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A06DF64296827AF00DDDBC5 /* Models.swift */; };
+		7A06DF69296827EE00DDDBC5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A06DF68296827EE00DDDBC5 /* HomeViewModel.swift */; };
+		7A06DF71296FDB2900DDDBC5 /* ChannelProgramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A06DF70296FDB2900DDDBC5 /* ChannelProgramView.swift */; };
+		7A07C87829CF3E1C00D7BFBC /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07C87629CF3E1C00D7BFBC /* ApiClient.swift */; };
+		7A07C89329CF40F700D7BFBC /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 7A07C89229CF40F700D7BFBC /* RxCocoa */; };
+		7A07C89529CF40F700D7BFBC /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 7A07C89429CF40F700D7BFBC /* RxRelay */; };
+		7A07C89729CF40F700D7BFBC /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7A07C89629CF40F700D7BFBC /* RxSwift */; };
+		7A0B1B342982B0B00004FD71 /* TvShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0B1B332982B0B00004FD71 /* TvShowView.swift */; };
+		7A0B1B362982E0E70004FD71 /* CustomFocusedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0B1B352982E0E70004FD71 /* CustomFocusedButton.swift */; };
+		7A0BF24129584847001DF15D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BF24029584847001DF15D /* Color.swift */; };
+		7A0BF24329599577001DF15D /* NavigationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BF24229599577001DF15D /* NavigationModifier.swift */; };
+		7A0BF24529599856001DF15D /* ListModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BF24429599856001DF15D /* ListModifier.swift */; };
+		7A0BF24729599E49001DF15D /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BF24629599E49001DF15D /* MyTabView.swift */; };
+		7A0BF24B295C100B001DF15D /* CatchUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BF24A295C100B001DF15D /* CatchUpViewModel.swift */; };
+		7A0BF24F295C10E0001DF15D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BF24E295C10E0001DF15D /* Constants.swift */; };
+		7A0BF254295C3723001DF15D /* DownloadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BF253295C3723001DF15D /* DownloadViewModel.swift */; };
+		7A0BF256295C618E001DF15D /* TabModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BF255295C618E001DF15D /* TabModifier.swift */; };
+		7A0BF258295DAFBA001DF15D /* CatchUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BF24A295C100B001DF15D /* CatchUpViewModel.swift */; };
+		7A0BF259295DAFC8001DF15D /* DownloadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BF253295C3723001DF15D /* DownloadViewModel.swift */; };
+		7A0BF25B295DAFE6001DF15D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BF24E295C10E0001DF15D /* Constants.swift */; };
+		7A0BF25D295DB029001DF15D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BF24029584847001DF15D /* Color.swift */; };
+		7A0BF261295DB786001DF15D /* HorizontalTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BF260295DB786001DF15D /* HorizontalTVCell.swift */; };
+		7A0BF263295EAFFD001DF15D /* MovieViewTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BF262295EAFFD001DF15D /* MovieViewTV.swift */; };
+		7A0BF264295EC932001DF15D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0CBAFB294C32840016E2DF /* Assets.xcassets */; };
+		7A0CBAF8294C32810016E2DF /* DSTV_UIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0CBAF7294C32810016E2DF /* DSTV_UIApp.swift */; };
+		7A0CBAFA294C32810016E2DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0CBAF9294C32810016E2DF /* ContentView.swift */; };
+		7A0CBAFC294C32840016E2DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0CBAFB294C32840016E2DF /* Assets.xcassets */; };
+		7A0CBAFF294C32840016E2DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0CBAFE294C32840016E2DF /* Preview Assets.xcassets */; };
+		7A0CBB09294C32850016E2DF /* DSTV_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0CBB08294C32850016E2DF /* DSTV_UITests.swift */; };
+		7A0CBB13294C32850016E2DF /* DSTV_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0CBB12294C32850016E2DF /* DSTV_UIUITests.swift */; };
+		7A0CBB15294C32850016E2DF /* DSTV_UIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0CBB14294C32850016E2DF /* DSTV_UIUITestsLaunchTests.swift */; };
+		7A0CBB28294C32FC0016E2DF /* DSTV_TVOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0CBB27294C32FC0016E2DF /* DSTV_TVOSApp.swift */; };
+		7A0CBB2A294C32FC0016E2DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0CBB29294C32FC0016E2DF /* ContentView.swift */; };
+		7A0CBB2C294C32FE0016E2DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0CBB2B294C32FE0016E2DF /* Assets.xcassets */; };
+		7A0CBB2F294C32FE0016E2DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0CBB2E294C32FE0016E2DF /* Preview Assets.xcassets */; };
+		7A0CBB39294C32FF0016E2DF /* DSTV_TVOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0CBB38294C32FF0016E2DF /* DSTV_TVOSTests.swift */; };
+		7A0CBB43294C32FF0016E2DF /* DSTV_TVOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0CBB42294C32FF0016E2DF /* DSTV_TVOSUITests.swift */; };
+		7A0CBB45294C32FF0016E2DF /* DSTV_TVOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0CBB44294C32FF0016E2DF /* DSTV_TVOSUITestsLaunchTests.swift */; };
+		7A0CBB5229502D940016E2DF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0CBB5129502D940016E2DF /* HomeView.swift */; };
+		7A0EF28829642F730005843A /* LiveTVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0EF28729642F730005843A /* LiveTVView.swift */; };
+		7A12E9442955C46900FDC85C /* PlayerViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9402955C46900FDC85C /* PlayerViewModal.swift */; };
+		7A12E9452955C46900FDC85C /* PlayerViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9402955C46900FDC85C /* PlayerViewModal.swift */; };
+		7A12E9462955C46900FDC85C /* SettingDetailViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9412955C46900FDC85C /* SettingDetailViewModal.swift */; };
+		7A12E9472955C46900FDC85C /* SettingDetailViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9412955C46900FDC85C /* SettingDetailViewModal.swift */; };
+		7A12E9482955C46900FDC85C /* SettingViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9422955C46900FDC85C /* SettingViewModal.swift */; };
+		7A12E9492955C46900FDC85C /* SettingViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9422955C46900FDC85C /* SettingViewModal.swift */; };
+		7A12E94A2955C46900FDC85C /* LiveTVViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9432955C46900FDC85C /* LiveTVViewModal.swift */; };
+		7A12E94B2955C46900FDC85C /* LiveTVViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9432955C46900FDC85C /* LiveTVViewModal.swift */; };
+		7A12E95B2955C7F800FDC85C /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E94D2955C7F700FDC85C /* SettingView.swift */; };
+		7A12E95D2955C7F800FDC85C /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E94E2955C7F700FDC85C /* FormView.swift */; };
+		7A12E95F2955C7F800FDC85C /* HorizontalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E94F2955C7F700FDC85C /* HorizontalCell.swift */; };
+		7A12E9612955C7F800FDC85C /* LiveTVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9502955C7F700FDC85C /* LiveTVView.swift */; };
+		7A12E9632955C7F800FDC85C /* CustomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9512955C7F700FDC85C /* CustomText.swift */; };
+		7A12E9642955C7F800FDC85C /* CustomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9512955C7F700FDC85C /* CustomText.swift */; };
+		7A12E9652955C7F800FDC85C /* CustomSegmentControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9522955C7F700FDC85C /* CustomSegmentControlView.swift */; };
+		7A12E9672955C7F800FDC85C /* SegmentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9532955C7F700FDC85C /* SegmentPicker.swift */; };
+		7A12E9682955C7F800FDC85C /* SegmentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9532955C7F700FDC85C /* SegmentPicker.swift */; };
+		7A12E9692955C7F800FDC85C /* TableCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9542955C7F700FDC85C /* TableCollectionView.swift */; };
+		7A12E96B2955C7F800FDC85C /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9552955C7F700FDC85C /* PlayerView.swift */; };
+		7A12E96C2955C7F800FDC85C /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9552955C7F700FDC85C /* PlayerView.swift */; };
+		7A12E96D2955C7F800FDC85C /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9562955C7F700FDC85C /* NavigationBar.swift */; };
+		7A12E96E2955C7F800FDC85C /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9562955C7F700FDC85C /* NavigationBar.swift */; };
+		7A12E96F2955C7F800FDC85C /* SettingDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9572955C7F700FDC85C /* SettingDetail.swift */; };
+		7A12E9712955C7F800FDC85C /* SettingTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9582955C7F800FDC85C /* SettingTopView.swift */; };
+		7A12E9722955C7F800FDC85C /* SettingTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9582955C7F800FDC85C /* SettingTopView.swift */; };
+		7A12E9732955C7F800FDC85C /* SettingToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9592955C7F800FDC85C /* SettingToggleView.swift */; };
+		7A12E9742955C7F800FDC85C /* SettingToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9592955C7F800FDC85C /* SettingToggleView.swift */; };
+		7A12E9752955C7F800FDC85C /* ItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E95A2955C7F800FDC85C /* ItemData.swift */; };
+		7A12E9762955C7F800FDC85C /* ItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E95A2955C7F800FDC85C /* ItemData.swift */; };
+		7A12E9782955C82E00FDC85C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9772955C82E00FDC85C /* ModelData.swift */; };
+		7A12E9792955C82E00FDC85C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E9772955C82E00FDC85C /* ModelData.swift */; };
+		7A12E97E2955D0EC00FDC85C /* DownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A12E97D2955D0EC00FDC85C /* DownloadView.swift */; };
+		7A1943F72963FA8700E2ED52 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1943F62963FA8700E2ED52 /* ProfileView.swift */; };
+		7A1943F82963FA8700E2ED52 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1943F62963FA8700E2ED52 /* ProfileView.swift */; };
+		7A1943FA2963FF6A00E2ED52 /* MovieItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1943F92963FF6A00E2ED52 /* MovieItemView.swift */; };
+		7A214EED29937DCB004D3A67 /* ChannelMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A214EEC29937DCB004D3A67 /* ChannelMainView.swift */; };
+		7A214EF3299380DC004D3A67 /* ChannelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A214EF2299380DC004D3A67 /* ChannelViewModel.swift */; };
+		7A214EF62994F07B004D3A67 /* SettingMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A214EF52994F07B004D3A67 /* SettingMainView.swift */; };
+		7A360A46299162A3000194E9 /* MoviesMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A360A45299162A3000194E9 /* MoviesMainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A0CBB05294C32850016E2DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A0CBAEC294C32810016E2DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A0CBAF3294C32810016E2DF;
+			remoteInfo = DSTV_UI;
+		};
+		7A0CBB0F294C32850016E2DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A0CBAEC294C32810016E2DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A0CBAF3294C32810016E2DF;
+			remoteInfo = DSTV_UI;
+		};
+		7A0CBB35294C32FF0016E2DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A0CBAEC294C32810016E2DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A0CBB24294C32FC0016E2DF;
+			remoteInfo = DSTV_TVOS;
+		};
+		7A0CBB3F294C32FF0016E2DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A0CBAEC294C32810016E2DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A0CBB24294C32FC0016E2DF;
+			remoteInfo = DSTV_TVOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A036DB52997A71F00ACD9DE /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
+		7A039A8329CDEEEF00A50773 /* KidsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsView.swift; sourceTree = "<group>"; };
+		7A039A8529CDEF4000A50773 /* KidsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsViewModel.swift; sourceTree = "<group>"; };
+		7A039A8829CE019B00A50773 /* SportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsView.swift; sourceTree = "<group>"; };
+		7A039A8A29CE01D400A50773 /* SportsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsViewModel.swift; sourceTree = "<group>"; };
+		7A039A8D29CE036100A50773 /* MyListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListViewModel.swift; sourceTree = "<group>"; };
+		7A039A8F29CE036E00A50773 /* MyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListView.swift; sourceTree = "<group>"; };
+		7A062B222951D6A500278C14 /* LiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveView.swift; sourceTree = "<group>"; };
+		7A062B242951D6D700278C14 /* CatchUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchUpView.swift; sourceTree = "<group>"; };
+		7A062B282951D6F200278C14 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		7A062B332951EDF800278C14 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		7A062B372951EE4000278C14 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		7A06DF5E29669D5800DDDBC5 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		7A06DF612968258300DDDBC5 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		7A06DF64296827AF00DDDBC5 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		7A06DF68296827EE00DDDBC5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		7A06DF70296FDB2900DDDBC5 /* ChannelProgramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelProgramView.swift; sourceTree = "<group>"; };
+		7A07C87629CF3E1C00D7BFBC /* ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		7A0B1B332982B0B00004FD71 /* TvShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowView.swift; sourceTree = "<group>"; };
+		7A0B1B352982E0E70004FD71 /* CustomFocusedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFocusedButton.swift; sourceTree = "<group>"; };
+		7A0BF24029584847001DF15D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		7A0BF24229599577001DF15D /* NavigationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationModifier.swift; sourceTree = "<group>"; };
+		7A0BF24429599856001DF15D /* ListModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModifier.swift; sourceTree = "<group>"; };
+		7A0BF24629599E49001DF15D /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
+		7A0BF24A295C100B001DF15D /* CatchUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchUpViewModel.swift; sourceTree = "<group>"; };
+		7A0BF24E295C10E0001DF15D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7A0BF253295C3723001DF15D /* DownloadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewModel.swift; sourceTree = "<group>"; };
+		7A0BF255295C618E001DF15D /* TabModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabModifier.swift; sourceTree = "<group>"; };
+		7A0BF260295DB786001DF15D /* HorizontalTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalTVCell.swift; sourceTree = "<group>"; };
+		7A0BF262295EAFFD001DF15D /* MovieViewTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewTV.swift; sourceTree = "<group>"; };
+		7A0CBAF4294C32810016E2DF /* DSTV_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSTV_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0CBAF7294C32810016E2DF /* DSTV_UIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTV_UIApp.swift; sourceTree = "<group>"; };
+		7A0CBAF9294C32810016E2DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A0CBAFB294C32840016E2DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A0CBAFE294C32840016E2DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A0CBB04294C32850016E2DF /* DSTV_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSTV_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0CBB08294C32850016E2DF /* DSTV_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTV_UITests.swift; sourceTree = "<group>"; };
+		7A0CBB0E294C32850016E2DF /* DSTV_UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSTV_UIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0CBB12294C32850016E2DF /* DSTV_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTV_UIUITests.swift; sourceTree = "<group>"; };
+		7A0CBB14294C32850016E2DF /* DSTV_UIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTV_UIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7A0CBB25294C32FC0016E2DF /* DSTV_TVOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSTV_TVOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0CBB27294C32FC0016E2DF /* DSTV_TVOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTV_TVOSApp.swift; sourceTree = "<group>"; };
+		7A0CBB29294C32FC0016E2DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A0CBB2B294C32FE0016E2DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A0CBB2E294C32FE0016E2DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A0CBB34294C32FE0016E2DF /* DSTV_TVOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSTV_TVOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0CBB38294C32FF0016E2DF /* DSTV_TVOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTV_TVOSTests.swift; sourceTree = "<group>"; };
+		7A0CBB3E294C32FF0016E2DF /* DSTV_TVOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSTV_TVOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0CBB42294C32FF0016E2DF /* DSTV_TVOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTV_TVOSUITests.swift; sourceTree = "<group>"; };
+		7A0CBB44294C32FF0016E2DF /* DSTV_TVOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTV_TVOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7A0CBB5129502D940016E2DF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7A0EF28729642F730005843A /* LiveTVView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTVView.swift; sourceTree = "<group>"; };
+		7A12E9402955C46900FDC85C /* PlayerViewModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewModal.swift; sourceTree = "<group>"; };
+		7A12E9412955C46900FDC85C /* SettingDetailViewModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingDetailViewModal.swift; sourceTree = "<group>"; };
+		7A12E9422955C46900FDC85C /* SettingViewModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewModal.swift; sourceTree = "<group>"; };
+		7A12E9432955C46900FDC85C /* LiveTVViewModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveTVViewModal.swift; sourceTree = "<group>"; };
+		7A12E94D2955C7F700FDC85C /* SettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		7A12E94E2955C7F700FDC85C /* FormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		7A12E94F2955C7F700FDC85C /* HorizontalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalCell.swift; sourceTree = "<group>"; };
+		7A12E9502955C7F700FDC85C /* LiveTVView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveTVView.swift; sourceTree = "<group>"; };
+		7A12E9512955C7F700FDC85C /* CustomText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomText.swift; sourceTree = "<group>"; };
+		7A12E9522955C7F700FDC85C /* CustomSegmentControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegmentControlView.swift; sourceTree = "<group>"; };
+		7A12E9532955C7F700FDC85C /* SegmentPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentPicker.swift; sourceTree = "<group>"; };
+		7A12E9542955C7F700FDC85C /* TableCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCollectionView.swift; sourceTree = "<group>"; };
+		7A12E9552955C7F700FDC85C /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		7A12E9562955C7F700FDC85C /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		7A12E9572955C7F700FDC85C /* SettingDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingDetail.swift; sourceTree = "<group>"; };
+		7A12E9582955C7F800FDC85C /* SettingTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTopView.swift; sourceTree = "<group>"; };
+		7A12E9592955C7F800FDC85C /* SettingToggleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingToggleView.swift; sourceTree = "<group>"; };
+		7A12E95A2955C7F800FDC85C /* ItemData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemData.swift; sourceTree = "<group>"; };
+		7A12E9772955C82E00FDC85C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		7A12E97D2955D0EC00FDC85C /* DownloadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadView.swift; sourceTree = "<group>"; };
+		7A1943F62963FA8700E2ED52 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		7A1943F92963FF6A00E2ED52 /* MovieItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieItemView.swift; sourceTree = "<group>"; };
+		7A214EEC29937DCB004D3A67 /* ChannelMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelMainView.swift; sourceTree = "<group>"; };
+		7A214EF2299380DC004D3A67 /* ChannelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewModel.swift; sourceTree = "<group>"; };
+		7A214EF52994F07B004D3A67 /* SettingMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingMainView.swift; sourceTree = "<group>"; };
+		7A360A45299162A3000194E9 /* MoviesMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesMainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A0CBAF1294C32810016E2DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A07C89729CF40F700D7BFBC /* RxSwift in Frameworks */,
+				7A07C89529CF40F700D7BFBC /* RxRelay in Frameworks */,
+				7A07C89329CF40F700D7BFBC /* RxCocoa in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0CBB01294C32850016E2DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0CBB0B294C32850016E2DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0CBB22294C32FC0016E2DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0CBB31294C32FE0016E2DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0CBB3B294C32FF0016E2DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A039A8229CDEED600A50773 /* Kids */ = {
+			isa = PBXGroup;
+			children = (
+				7A039A8329CDEEEF00A50773 /* KidsView.swift */,
+				7A039A8529CDEF4000A50773 /* KidsViewModel.swift */,
+			);
+			path = Kids;
+			sourceTree = "<group>";
+		};
+		7A039A8729CE017900A50773 /* Sports */ = {
+			isa = PBXGroup;
+			children = (
+				7A039A8829CE019B00A50773 /* SportsView.swift */,
+				7A039A8A29CE01D400A50773 /* SportsViewModel.swift */,
+			);
+			path = Sports;
+			sourceTree = "<group>";
+		};
+		7A039A8C29CE034900A50773 /* MyList */ = {
+			isa = PBXGroup;
+			children = (
+				7A039A8D29CE036100A50773 /* MyListViewModel.swift */,
+				7A039A8F29CE036E00A50773 /* MyListView.swift */,
+			);
+			path = MyList;
+			sourceTree = "<group>";
+		};
+		7A06DF6029669E2B00DDDBC5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7A0CBB29294C32FC0016E2DF /* ContentView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7A06DF66296827C000DDDBC5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7A06DF68296827EE00DDDBC5 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7A06DF67296827D200DDDBC5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A06DF64296827AF00DDDBC5 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7A0BF23F29584832001DF15D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				7A0BF24029584847001DF15D /* Color.swift */,
+				7A0BF24229599577001DF15D /* NavigationModifier.swift */,
+				7A0BF24429599856001DF15D /* ListModifier.swift */,
+				7A0BF24E295C10E0001DF15D /* Constants.swift */,
+				7A0BF255295C618E001DF15D /* TabModifier.swift */,
+				7A06DF612968258300DDDBC5 /* Protocols.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		7A0BF24829599EB0001DF15D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7A12E94F2955C7F700FDC85C /* HorizontalCell.swift */,
+				7A12E9542955C7F700FDC85C /* TableCollectionView.swift */,
+				7A0CBB5129502D940016E2DF /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7A0BF249295ACAD5001DF15D /* Live TV */ = {
+			isa = PBXGroup;
+			children = (
+				7A062B222951D6A500278C14 /* LiveView.swift */,
+				7A12E9502955C7F700FDC85C /* LiveTVView.swift */,
+			);
+			path = "Live TV";
+			sourceTree = "<group>";
+		};
+		7A0BF250295C35A3001DF15D /* CatchUp */ = {
+			isa = PBXGroup;
+			children = (
+				7A062B242951D6D700278C14 /* CatchUpView.swift */,
+			);
+			path = CatchUp;
+			sourceTree = "<group>";
+		};
+		7A0BF251295C362C001DF15D /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				7A12E97D2955D0EC00FDC85C /* DownloadView.swift */,
+			);
+			path = Download;
+			sourceTree = "<group>";
+		};
+		7A0BF252295C3639001DF15D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7A12E9522955C7F700FDC85C /* CustomSegmentControlView.swift */,
+				7A0CBAF7294C32810016E2DF /* DSTV_UIApp.swift */,
+				7A0BF24629599E49001DF15D /* MyTabView.swift */,
+				7A0CBAF9294C32810016E2DF /* ContentView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7A0BF257295C67B7001DF15D /* More-Setting */ = {
+			isa = PBXGroup;
+			children = (
+				7A12E9572955C7F700FDC85C /* SettingDetail.swift */,
+				7A12E9582955C7F800FDC85C /* SettingTopView.swift */,
+				7A12E94D2955C7F700FDC85C /* SettingView.swift */,
+				7A12E94E2955C7F700FDC85C /* FormView.swift */,
+			);
+			path = "More-Setting";
+			sourceTree = "<group>";
+		};
+		7A0CBAEB294C32810016E2DF = {
+			isa = PBXGroup;
+			children = (
+				7A0CBAF6294C32810016E2DF /* DSTV_UI */,
+				7A0CBB07294C32850016E2DF /* DSTV_UITests */,
+				7A0CBB11294C32850016E2DF /* DSTV_UIUITests */,
+				7A0CBB26294C32FC0016E2DF /* DSTV_TVOS */,
+				7A0CBB37294C32FF0016E2DF /* DSTV_TVOSTests */,
+				7A0CBB41294C32FF0016E2DF /* DSTV_TVOSUITests */,
+				7A0CBAF5294C32810016E2DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A0CBAF5294C32810016E2DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A0CBAF4294C32810016E2DF /* DSTV_UI.app */,
+				7A0CBB04294C32850016E2DF /* DSTV_UITests.xctest */,
+				7A0CBB0E294C32850016E2DF /* DSTV_UIUITests.xctest */,
+				7A0CBB25294C32FC0016E2DF /* DSTV_TVOS.app */,
+				7A0CBB34294C32FE0016E2DF /* DSTV_TVOSTests.xctest */,
+				7A0CBB3E294C32FF0016E2DF /* DSTV_TVOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A0CBAF6294C32810016E2DF /* DSTV_UI */ = {
+			isa = PBXGroup;
+			children = (
+				7A0BF23F29584832001DF15D /* Utility */,
+				7A12E93F2955C45100FDC85C /* ViewModel */,
+				7A12E9102955C40C00FDC85C /* Views */,
+				7A0CBAFB294C32840016E2DF /* Assets.xcassets */,
+				7A0CBAFD294C32840016E2DF /* Preview Content */,
+				7A062B372951EE4000278C14 /* DataModel.swift */,
+			);
+			path = DSTV_UI;
+			sourceTree = "<group>";
+		};
+		7A0CBAFD294C32840016E2DF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7A0CBAFE294C32840016E2DF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7A0CBB07294C32850016E2DF /* DSTV_UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A0CBB08294C32850016E2DF /* DSTV_UITests.swift */,
+			);
+			path = DSTV_UITests;
+			sourceTree = "<group>";
+		};
+		7A0CBB11294C32850016E2DF /* DSTV_UIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A0CBB12294C32850016E2DF /* DSTV_UIUITests.swift */,
+				7A0CBB14294C32850016E2DF /* DSTV_UIUITestsLaunchTests.swift */,
+			);
+			path = DSTV_UIUITests;
+			sourceTree = "<group>";
+		};
+		7A0CBB26294C32FC0016E2DF /* DSTV_TVOS */ = {
+			isa = PBXGroup;
+			children = (
+				7A1F6DC929CED46A00CBDFE9 /* Networking */,
+				7A039A8C29CE034900A50773 /* MyList */,
+				7A039A8729CE017900A50773 /* Sports */,
+				7A039A8229CDEED600A50773 /* Kids */,
+				7A214EF42994F05B004D3A67 /* Setting */,
+				7A214EF12993804E004D3A67 /* Movies */,
+				7A214EF029938038004D3A67 /* Search */,
+				7A214EEF29937DF8004D3A67 /* Live TV */,
+				7A214EEE29937DD5004D3A67 /* TV Show */,
+				7A214EEB29937DAD004D3A67 /* Channel */,
+				7A06DF67296827D200DDDBC5 /* Models */,
+				7A06DF66296827C000DDDBC5 /* ViewModels */,
+				7A06DF6029669E2B00DDDBC5 /* Home */,
+				7A1943FB2963FF6E00E2ED52 /* View */,
+				7A0CBB27294C32FC0016E2DF /* DSTV_TVOSApp.swift */,
+				7A0CBB2B294C32FE0016E2DF /* Assets.xcassets */,
+				7A0CBB2D294C32FE0016E2DF /* Preview Content */,
+				7A0BF260295DB786001DF15D /* HorizontalTVCell.swift */,
+			);
+			path = DSTV_TVOS;
+			sourceTree = "<group>";
+		};
+		7A0CBB2D294C32FE0016E2DF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7A0CBB2E294C32FE0016E2DF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7A0CBB37294C32FF0016E2DF /* DSTV_TVOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A0CBB38294C32FF0016E2DF /* DSTV_TVOSTests.swift */,
+			);
+			path = DSTV_TVOSTests;
+			sourceTree = "<group>";
+		};
+		7A0CBB41294C32FF0016E2DF /* DSTV_TVOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A0CBB42294C32FF0016E2DF /* DSTV_TVOSUITests.swift */,
+				7A0CBB44294C32FF0016E2DF /* DSTV_TVOSUITestsLaunchTests.swift */,
+			);
+			path = DSTV_TVOSUITests;
+			sourceTree = "<group>";
+		};
+		7A0EF28629642F4D0005843A /* Live TV */ = {
+			isa = PBXGroup;
+			children = (
+				7A0EF28729642F730005843A /* LiveTVView.swift */,
+			);
+			path = "Live TV";
+			sourceTree = "<group>";
+		};
+		7A12E9102955C40C00FDC85C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A0BF257295C67B7001DF15D /* More-Setting */,
+				7A0BF252295C3639001DF15D /* Common */,
+				7A0BF251295C362C001DF15D /* Download */,
+				7A0BF250295C35A3001DF15D /* CatchUp */,
+				7A0BF249295ACAD5001DF15D /* Live TV */,
+				7A0BF24829599EB0001DF15D /* Home */,
+				7A062B282951D6F200278C14 /* MoreView.swift */,
+				7A062B332951EDF800278C14 /* CollectionView.swift */,
+				7A12E9512955C7F700FDC85C /* CustomText.swift */,
+				7A12E95A2955C7F800FDC85C /* ItemData.swift */,
+				7A12E9562955C7F700FDC85C /* NavigationBar.swift */,
+				7A12E9552955C7F700FDC85C /* PlayerView.swift */,
+				7A12E9532955C7F700FDC85C /* SegmentPicker.swift */,
+				7A12E9592955C7F800FDC85C /* SettingToggleView.swift */,
+				7A1943F62963FA8700E2ED52 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7A12E93F2955C45100FDC85C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7A12E9432955C46900FDC85C /* LiveTVViewModal.swift */,
+				7A12E9402955C46900FDC85C /* PlayerViewModal.swift */,
+				7A12E9412955C46900FDC85C /* SettingDetailViewModal.swift */,
+				7A12E9422955C46900FDC85C /* SettingViewModal.swift */,
+				7A12E9772955C82E00FDC85C /* ModelData.swift */,
+				7A0BF24A295C100B001DF15D /* CatchUpViewModel.swift */,
+				7A0BF253295C3723001DF15D /* DownloadViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7A1943FB2963FF6E00E2ED52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A0EF28629642F4D0005843A /* Live TV */,
+				7A1943FC2963FF7400E2ED52 /* Common */,
+				7A06DF70296FDB2900DDDBC5 /* ChannelProgramView.swift */,
+				7A0B1B352982E0E70004FD71 /* CustomFocusedButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A1943FC2963FF7400E2ED52 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7A0BF262295EAFFD001DF15D /* MovieViewTV.swift */,
+				7A1943F92963FF6A00E2ED52 /* MovieItemView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7A1F6DC929CED46A00CBDFE9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				7A07C87629CF3E1C00D7BFBC /* ApiClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		7A214EEB29937DAD004D3A67 /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				7A214EEC29937DCB004D3A67 /* ChannelMainView.swift */,
+				7A214EF2299380DC004D3A67 /* ChannelViewModel.swift */,
+			);
+			path = Channel;
+			sourceTree = "<group>";
+		};
+		7A214EEE29937DD5004D3A67 /* TV Show */ = {
+			isa = PBXGroup;
+			children = (
+				7A0B1B332982B0B00004FD71 /* TvShowView.swift */,
+			);
+			path = "TV Show";
+			sourceTree = "<group>";
+		};
+		7A214EEF29937DF8004D3A67 /* Live TV */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Live TV";
+			sourceTree = "<group>";
+		};
+		7A214EF029938038004D3A67 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				7A06DF5E29669D5800DDDBC5 /* SearchView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		7A214EF12993804E004D3A67 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				7A360A45299162A3000194E9 /* MoviesMainView.swift */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		7A214EF42994F05B004D3A67 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				7A214EF52994F07B004D3A67 /* SettingMainView.swift */,
+				7A036DB52997A71F00ACD9DE /* SettingViewModel.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A0CBAF3294C32810016E2DF /* DSTV_UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0CBB18294C32850016E2DF /* Build configuration list for PBXNativeTarget "DSTV_UI" */;
+			buildPhases = (
+				7A0CBAF0294C32810016E2DF /* Sources */,
+				7A0CBAF1294C32810016E2DF /* Frameworks */,
+				7A0CBAF2294C32810016E2DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSTV_UI;
+			packageProductDependencies = (
+				7A07C89229CF40F700D7BFBC /* RxCocoa */,
+				7A07C89429CF40F700D7BFBC /* RxRelay */,
+				7A07C89629CF40F700D7BFBC /* RxSwift */,
+			);
+			productName = DSTV_UI;
+			productReference = 7A0CBAF4294C32810016E2DF /* DSTV_UI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A0CBB03294C32850016E2DF /* DSTV_UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0CBB1B294C32850016E2DF /* Build configuration list for PBXNativeTarget "DSTV_UITests" */;
+			buildPhases = (
+				7A0CBB00294C32850016E2DF /* Sources */,
+				7A0CBB01294C32850016E2DF /* Frameworks */,
+				7A0CBB02294C32850016E2DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A0CBB06294C32850016E2DF /* PBXTargetDependency */,
+			);
+			name = DSTV_UITests;
+			productName = DSTV_UITests;
+			productReference = 7A0CBB04294C32850016E2DF /* DSTV_UITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A0CBB0D294C32850016E2DF /* DSTV_UIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0CBB1E294C32850016E2DF /* Build configuration list for PBXNativeTarget "DSTV_UIUITests" */;
+			buildPhases = (
+				7A0CBB0A294C32850016E2DF /* Sources */,
+				7A0CBB0B294C32850016E2DF /* Frameworks */,
+				7A0CBB0C294C32850016E2DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A0CBB10294C32850016E2DF /* PBXTargetDependency */,
+			);
+			name = DSTV_UIUITests;
+			productName = DSTV_UIUITests;
+			productReference = 7A0CBB0E294C32850016E2DF /* DSTV_UIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7A0CBB24294C32FC0016E2DF /* DSTV_TVOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0CBB46294C32FF0016E2DF /* Build configuration list for PBXNativeTarget "DSTV_TVOS" */;
+			buildPhases = (
+				7A0CBB21294C32FC0016E2DF /* Sources */,
+				7A0CBB22294C32FC0016E2DF /* Frameworks */,
+				7A0CBB23294C32FC0016E2DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSTV_TVOS;
+			productName = DSTV_TVOS;
+			productReference = 7A0CBB25294C32FC0016E2DF /* DSTV_TVOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A0CBB33294C32FE0016E2DF /* DSTV_TVOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0CBB49294C32FF0016E2DF /* Build configuration list for PBXNativeTarget "DSTV_TVOSTests" */;
+			buildPhases = (
+				7A0CBB30294C32FE0016E2DF /* Sources */,
+				7A0CBB31294C32FE0016E2DF /* Frameworks */,
+				7A0CBB32294C32FE0016E2DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A0CBB36294C32FF0016E2DF /* PBXTargetDependency */,
+			);
+			name = DSTV_TVOSTests;
+			productName = DSTV_TVOSTests;
+			productReference = 7A0CBB34294C32FE0016E2DF /* DSTV_TVOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A0CBB3D294C32FF0016E2DF /* DSTV_TVOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0CBB4C294C32FF0016E2DF /* Build configuration list for PBXNativeTarget "DSTV_TVOSUITests" */;
+			buildPhases = (
+				7A0CBB3A294C32FF0016E2DF /* Sources */,
+				7A0CBB3B294C32FF0016E2DF /* Frameworks */,
+				7A0CBB3C294C32FF0016E2DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A0CBB40294C32FF0016E2DF /* PBXTargetDependency */,
+			);
+			name = DSTV_TVOSUITests;
+			productName = DSTV_TVOSUITests;
+			productReference = 7A0CBB3E294C32FF0016E2DF /* DSTV_TVOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A0CBAEC294C32810016E2DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					7A0CBAF3294C32810016E2DF = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					7A0CBB03294C32850016E2DF = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 7A0CBAF3294C32810016E2DF;
+					};
+					7A0CBB0D294C32850016E2DF = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 7A0CBAF3294C32810016E2DF;
+					};
+					7A0CBB24294C32FC0016E2DF = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					7A0CBB33294C32FE0016E2DF = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 7A0CBB24294C32FC0016E2DF;
+					};
+					7A0CBB3D294C32FF0016E2DF = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 7A0CBB24294C32FC0016E2DF;
+					};
+				};
+			};
+			buildConfigurationList = 7A0CBAEF294C32810016E2DF /* Build configuration list for PBXProject "DSTV_UI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A0CBAEB294C32810016E2DF;
+			packageReferences = (
+				7A07C89129CF40F700D7BFBC /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
+			productRefGroup = 7A0CBAF5294C32810016E2DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A0CBAF3294C32810016E2DF /* DSTV_UI */,
+				7A0CBB03294C32850016E2DF /* DSTV_UITests */,
+				7A0CBB0D294C32850016E2DF /* DSTV_UIUITests */,
+				7A0CBB24294C32FC0016E2DF /* DSTV_TVOS */,
+				7A0CBB33294C32FE0016E2DF /* DSTV_TVOSTests */,
+				7A0CBB3D294C32FF0016E2DF /* DSTV_TVOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A0CBAF2294C32810016E2DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0CBAFF294C32840016E2DF /* Preview Assets.xcassets in Resources */,
+				7A0CBAFC294C32840016E2DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0CBB02294C32850016E2DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0CBB0C294C32850016E2DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0CBB23294C32FC0016E2DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0CBB2F294C32FE0016E2DF /* Preview Assets.xcassets in Resources */,
+				7A0BF264295EC932001DF15D /* Assets.xcassets in Resources */,
+				7A0CBB2C294C32FE0016E2DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0CBB32294C32FE0016E2DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0CBB3C294C32FF0016E2DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A0CBAF0294C32810016E2DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0BF24329599577001DF15D /* NavigationModifier.swift in Sources */,
+				7A0BF24729599E49001DF15D /* MyTabView.swift in Sources */,
+				7A12E94A2955C46900FDC85C /* LiveTVViewModal.swift in Sources */,
+				7A12E9482955C46900FDC85C /* SettingViewModal.swift in Sources */,
+				7A062B342951EDF800278C14 /* CollectionView.swift in Sources */,
+				7A12E9712955C7F800FDC85C /* SettingTopView.swift in Sources */,
+				7A1943F72963FA8700E2ED52 /* ProfileView.swift in Sources */,
+				7A12E96B2955C7F800FDC85C /* PlayerView.swift in Sources */,
+				7A12E9672955C7F800FDC85C /* SegmentPicker.swift in Sources */,
+				7A06DF622968258300DDDBC5 /* Protocols.swift in Sources */,
+				7A12E95B2955C7F800FDC85C /* SettingView.swift in Sources */,
+				7A12E96D2955C7F800FDC85C /* NavigationBar.swift in Sources */,
+				7A12E96F2955C7F800FDC85C /* SettingDetail.swift in Sources */,
+				7A12E9462955C46900FDC85C /* SettingDetailViewModal.swift in Sources */,
+				7A12E97E2955D0EC00FDC85C /* DownloadView.swift in Sources */,
+				7A12E9692955C7F800FDC85C /* TableCollectionView.swift in Sources */,
+				7A062B232951D6A500278C14 /* LiveView.swift in Sources */,
+				7A12E9782955C82E00FDC85C /* ModelData.swift in Sources */,
+				7A0BF24B295C100B001DF15D /* CatchUpViewModel.swift in Sources */,
+				7A0CBB5229502D940016E2DF /* HomeView.swift in Sources */,
+				7A062B252951D6D700278C14 /* CatchUpView.swift in Sources */,
+				7A12E95F2955C7F800FDC85C /* HorizontalCell.swift in Sources */,
+				7A062B382951EE4000278C14 /* DataModel.swift in Sources */,
+				7A12E9732955C7F800FDC85C /* SettingToggleView.swift in Sources */,
+				7A0BF256295C618E001DF15D /* TabModifier.swift in Sources */,
+				7A12E9752955C7F800FDC85C /* ItemData.swift in Sources */,
+				7A0BF254295C3723001DF15D /* DownloadViewModel.swift in Sources */,
+				7A0CBAFA294C32810016E2DF /* ContentView.swift in Sources */,
+				7A0BF24F295C10E0001DF15D /* Constants.swift in Sources */,
+				7A12E9442955C46900FDC85C /* PlayerViewModal.swift in Sources */,
+				7A0BF24529599856001DF15D /* ListModifier.swift in Sources */,
+				7A0BF24129584847001DF15D /* Color.swift in Sources */,
+				7A12E95D2955C7F800FDC85C /* FormView.swift in Sources */,
+				7A0CBAF8294C32810016E2DF /* DSTV_UIApp.swift in Sources */,
+				7A12E9612955C7F800FDC85C /* LiveTVView.swift in Sources */,
+				7A062B292951D6F200278C14 /* MoreView.swift in Sources */,
+				7A12E9632955C7F800FDC85C /* CustomText.swift in Sources */,
+				7A12E9652955C7F800FDC85C /* CustomSegmentControlView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0CBB00294C32850016E2DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0CBB09294C32850016E2DF /* DSTV_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0CBB0A294C32850016E2DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0CBB13294C32850016E2DF /* DSTV_UIUITests.swift in Sources */,
+				7A0CBB15294C32850016E2DF /* DSTV_UIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0CBB21294C32FC0016E2DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A12E9472955C46900FDC85C /* SettingDetailViewModal.swift in Sources */,
+				7A036DB62997A71F00ACD9DE /* SettingViewModel.swift in Sources */,
+				7A12E9792955C82E00FDC85C /* ModelData.swift in Sources */,
+				7A0BF258295DAFBA001DF15D /* CatchUpViewModel.swift in Sources */,
+				7A062B322951DA4600278C14 /* MoreView.swift in Sources */,
+				7A0BF261295DB786001DF15D /* HorizontalTVCell.swift in Sources */,
+				7A0BF263295EAFFD001DF15D /* MovieViewTV.swift in Sources */,
+				7A039A8929CE019B00A50773 /* SportsView.swift in Sources */,
+				7A0BF25B295DAFE6001DF15D /* Constants.swift in Sources */,
+				7A0BF259295DAFC8001DF15D /* DownloadViewModel.swift in Sources */,
+				7A12E9682955C7F800FDC85C /* SegmentPicker.swift in Sources */,
+				7A06DF71296FDB2900DDDBC5 /* ChannelProgramView.swift in Sources */,
+				7A12E96E2955C7F800FDC85C /* NavigationBar.swift in Sources */,
+				7A0B1B342982B0B00004FD71 /* TvShowView.swift in Sources */,
+				7A12E9452955C46900FDC85C /* PlayerViewModal.swift in Sources */,
+				7A062B2F2951DA3B00278C14 /* LiveView.swift in Sources */,
+				7A12E94B2955C46900FDC85C /* LiveTVViewModal.swift in Sources */,
+				7A06DF69296827EE00DDDBC5 /* HomeViewModel.swift in Sources */,
+				7A214EED29937DCB004D3A67 /* ChannelMainView.swift in Sources */,
+				7A12E9722955C7F800FDC85C /* SettingTopView.swift in Sources */,
+				7A039A9029CE036E00A50773 /* MyListView.swift in Sources */,
+				7A0B1B362982E0E70004FD71 /* CustomFocusedButton.swift in Sources */,
+				7A0EF28829642F730005843A /* LiveTVView.swift in Sources */,
+				7A12E9762955C7F800FDC85C /* ItemData.swift in Sources */,
+				7A12E96C2955C7F800FDC85C /* PlayerView.swift in Sources */,
+				7A039A8E29CE036100A50773 /* MyListViewModel.swift in Sources */,
+				7A1943F82963FA8700E2ED52 /* ProfileView.swift in Sources */,
+				7A039A8B29CE01D500A50773 /* SportsViewModel.swift in Sources */,
+				7A0BF25D295DB029001DF15D /* Color.swift in Sources */,
+				7A07C87829CF3E1C00D7BFBC /* ApiClient.swift in Sources */,
+				7A1943FA2963FF6A00E2ED52 /* MovieItemView.swift in Sources */,
+				7A360A46299162A3000194E9 /* MoviesMainView.swift in Sources */,
+				7A12E9492955C46900FDC85C /* SettingViewModal.swift in Sources */,
+				7A12E9642955C7F800FDC85C /* CustomText.swift in Sources */,
+				7A214EF62994F07B004D3A67 /* SettingMainView.swift in Sources */,
+				7A062B392951EE4000278C14 /* DataModel.swift in Sources */,
+				7A06DF632968258A00DDDBC5 /* Protocols.swift in Sources */,
+				7A214EF3299380DC004D3A67 /* ChannelViewModel.swift in Sources */,
+				7A12E9742955C7F800FDC85C /* SettingToggleView.swift in Sources */,
+				7A06DF5F29669D5800DDDBC5 /* SearchView.swift in Sources */,
+				7A06DF65296827AF00DDDBC5 /* Models.swift in Sources */,
+				7A0CBB2A294C32FC0016E2DF /* ContentView.swift in Sources */,
+				7A039A8629CDEF4000A50773 /* KidsViewModel.swift in Sources */,
+				7A0CBB28294C32FC0016E2DF /* DSTV_TVOSApp.swift in Sources */,
+				7A039A8429CDEEEF00A50773 /* KidsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0CBB30294C32FE0016E2DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0CBB39294C32FF0016E2DF /* DSTV_TVOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0CBB3A294C32FF0016E2DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0CBB43294C32FF0016E2DF /* DSTV_TVOSUITests.swift in Sources */,
+				7A0CBB45294C32FF0016E2DF /* DSTV_TVOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A0CBB06294C32850016E2DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A0CBAF3294C32810016E2DF /* DSTV_UI */;
+			targetProxy = 7A0CBB05294C32850016E2DF /* PBXContainerItemProxy */;
+		};
+		7A0CBB10294C32850016E2DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A0CBAF3294C32810016E2DF /* DSTV_UI */;
+			targetProxy = 7A0CBB0F294C32850016E2DF /* PBXContainerItemProxy */;
+		};
+		7A0CBB36294C32FF0016E2DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A0CBB24294C32FC0016E2DF /* DSTV_TVOS */;
+			targetProxy = 7A0CBB35294C32FF0016E2DF /* PBXContainerItemProxy */;
+		};
+		7A0CBB40294C32FF0016E2DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A0CBB24294C32FC0016E2DF /* DSTV_TVOS */;
+			targetProxy = 7A0CBB3F294C32FF0016E2DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7A0CBB16294C32850016E2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A0CBB17294C32850016E2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A0CBB19294C32850016E2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DSTV_UI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oum.DSTV-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A0CBB1A294C32850016E2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DSTV_UI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oum.DSTV-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A0CBB1C294C32850016E2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oum.DSTV-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DSTV_UI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DSTV_UI";
+			};
+			name = Debug;
+		};
+		7A0CBB1D294C32850016E2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oum.DSTV-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DSTV_UI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DSTV_UI";
+			};
+			name = Release;
+		};
+		7A0CBB1F294C32850016E2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oum.DSTV-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DSTV_UI;
+			};
+			name = Debug;
+		};
+		7A0CBB20294C32850016E2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oum.DSTV-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DSTV_UI;
+			};
+			name = Release;
+		};
+		7A0CBB47294C32FF0016E2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DSTV_TVOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 4WB6UCZQF4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oum.DSTV-TVOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Debug;
+		};
+		7A0CBB48294C32FF0016E2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DSTV_TVOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 4WB6UCZQF4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oum.DSTV-TVOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Release;
+		};
+		7A0CBB4A294C32FF0016E2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oum.DSTV-TVOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DSTV_TVOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DSTV_TVOS";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Debug;
+		};
+		7A0CBB4B294C32FF0016E2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oum.DSTV-TVOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DSTV_TVOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DSTV_TVOS";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Release;
+		};
+		7A0CBB4D294C32FF0016E2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oum.DSTV-TVOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = DSTV_TVOS;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Debug;
+		};
+		7A0CBB4E294C32FF0016E2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oum.DSTV-TVOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = DSTV_TVOS;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A0CBAEF294C32810016E2DF /* Build configuration list for PBXProject "DSTV_UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0CBB16294C32850016E2DF /* Debug */,
+				7A0CBB17294C32850016E2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A0CBB18294C32850016E2DF /* Build configuration list for PBXNativeTarget "DSTV_UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0CBB19294C32850016E2DF /* Debug */,
+				7A0CBB1A294C32850016E2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A0CBB1B294C32850016E2DF /* Build configuration list for PBXNativeTarget "DSTV_UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0CBB1C294C32850016E2DF /* Debug */,
+				7A0CBB1D294C32850016E2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A0CBB1E294C32850016E2DF /* Build configuration list for PBXNativeTarget "DSTV_UIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0CBB1F294C32850016E2DF /* Debug */,
+				7A0CBB20294C32850016E2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A0CBB46294C32FF0016E2DF /* Build configuration list for PBXNativeTarget "DSTV_TVOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0CBB47294C32FF0016E2DF /* Debug */,
+				7A0CBB48294C32FF0016E2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A0CBB49294C32FF0016E2DF /* Build configuration list for PBXNativeTarget "DSTV_TVOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0CBB4A294C32FF0016E2DF /* Debug */,
+				7A0CBB4B294C32FF0016E2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A0CBB4C294C32FF0016E2DF /* Build configuration list for PBXNativeTarget "DSTV_TVOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0CBB4D294C32FF0016E2DF /* Debug */,
+				7A0CBB4E294C32FF0016E2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7A07C89129CF40F700D7BFBC /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7A07C89229CF40F700D7BFBC /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A07C89129CF40F700D7BFBC /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		7A07C89429CF40F700D7BFBC /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A07C89129CF40F700D7BFBC /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		7A07C89629CF40F700D7BFBC /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A07C89129CF40F700D7BFBC /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7A0CBAEC294C32810016E2DF /* Project object */;
+}
