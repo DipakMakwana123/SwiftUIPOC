@@ -3,7 +3,7 @@ import Foundation
 import RxSwift
 
 
-/*class ApiClient {
+class ApiClient {
     
     // MARK: - Properties
     
@@ -23,6 +23,7 @@ import RxSwift
     
     // MARK: - Operations
     func dataTask(request: URLRequest, caller: String) -> Observable<Any?> {
+
         return rawDataTask(request: request, caller: caller).map { response -> Any? in
             if let data = response as? (Data?, URLResponse?), let json = data.0?.json {
 #if os(iOS)
@@ -52,6 +53,7 @@ import RxSwift
                     observer.onError(error)
                 } else {
                     let response: (Data?, URLResponse?) = (mockData.1, nil)
+                    
                     observer.onNext(response)
                     observer.onCompleted()
                 }
@@ -108,4 +110,4 @@ import RxSwift
         return dataTask
     }
 }
-*/
+

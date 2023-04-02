@@ -28,11 +28,18 @@
 		7A06DF65296827AF00DDDBC5 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A06DF64296827AF00DDDBC5 /* Models.swift */; };
 		7A06DF69296827EE00DDDBC5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A06DF68296827EE00DDDBC5 /* HomeViewModel.swift */; };
 		7A06DF71296FDB2900DDDBC5 /* ChannelProgramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A06DF70296FDB2900DDDBC5 /* ChannelProgramView.swift */; };
-		7A07C87829CF3E1C00D7BFBC /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07C87629CF3E1C00D7BFBC /* ApiClient.swift */; };
-		7A07C8AB29D0431F00D7BFBC /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 7A07C8AA29D0431F00D7BFBC /* RxCocoa */; };
-		7A07C8AD29D0431F00D7BFBC /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 7A07C8AC29D0431F00D7BFBC /* RxRelay */; };
-		7A07C8AF29D0431F00D7BFBC /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7A07C8AE29D0431F00D7BFBC /* RxSwift */; };
-		7A07C8B229D0435400D7BFBC /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7A07C8B129D0435400D7BFBC /* RxSwift */; };
+		7A07C8EE29D06A3C00D7BFBC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07C8EC29D06A3C00D7BFBC /* Extension.swift */; };
+		7A07C8EF29D06A3C00D7BFBC /* Enviornment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07C8E629D06A3B00D7BFBC /* Enviornment.swift */; };
+		7A07C8F029D06A3C00D7BFBC /* DebugLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07C8E329D06A3A00D7BFBC /* DebugLogging.swift */; };
+		7A07C8F129D06A3C00D7BFBC /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07C8E229D06A3A00D7BFBC /* ApiClient.swift */; };
+		7A07C8F229D06A3C00D7BFBC /* LoginSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07C8ED29D06A3C00D7BFBC /* LoginSession.swift */; };
+		7A07C8F329D06A3C00D7BFBC /* RemoteConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07C8E529D06A3A00D7BFBC /* RemoteConfigManager.swift */; };
+		7A07C8F429D06A3C00D7BFBC /* SegmentLogOutReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07C8EB29D06A3C00D7BFBC /* SegmentLogOutReporter.swift */; };
+		7A07C8F529D06A3C00D7BFBC /* MockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07C8E429D06A3A00D7BFBC /* MockManager.swift */; };
+		7A07C8F629D06A3C00D7BFBC /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07C8E929D06A3B00D7BFBC /* API.swift */; };
+		7A07C8F729D06A3C00D7BFBC /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07C8EA29D06A3B00D7BFBC /* RequestError.swift */; };
+		7A07C8F829D06A3C00D7BFBC /* AcccessTokenRefreshHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07C8E729D06A3B00D7BFBC /* AcccessTokenRefreshHandler.swift */; };
+		7A07C8F929D06A3C00D7BFBC /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07C8E829D06A3B00D7BFBC /* Defaults.swift */; };
 		7A0B1B342982B0B00004FD71 /* TvShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0B1B332982B0B00004FD71 /* TvShowView.swift */; };
 		7A0B1B362982E0E70004FD71 /* CustomFocusedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0B1B352982E0E70004FD71 /* CustomFocusedButton.swift */; };
 		7A0BF24129584847001DF15D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BF24029584847001DF15D /* Color.swift */; };
@@ -104,6 +111,9 @@
 		7A214EED29937DCB004D3A67 /* ChannelMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A214EEC29937DCB004D3A67 /* ChannelMainView.swift */; };
 		7A214EF3299380DC004D3A67 /* ChannelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A214EF2299380DC004D3A67 /* ChannelViewModel.swift */; };
 		7A214EF62994F07B004D3A67 /* SettingMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A214EF52994F07B004D3A67 /* SettingMainView.swift */; };
+		7A34C0D629D9918D001E341D /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 7A34C0D529D9918D001E341D /* RxCocoa */; };
+		7A34C0D829D9918D001E341D /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 7A34C0D729D9918D001E341D /* RxRelay */; };
+		7A34C0DA29D9918D001E341D /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7A34C0D929D9918D001E341D /* RxSwift */; };
 		7A360A46299162A3000194E9 /* MoviesMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A360A45299162A3000194E9 /* MoviesMainView.swift */; };
 /* End PBXBuildFile section */
 
@@ -156,7 +166,18 @@
 		7A06DF64296827AF00DDDBC5 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		7A06DF68296827EE00DDDBC5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		7A06DF70296FDB2900DDDBC5 /* ChannelProgramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelProgramView.swift; sourceTree = "<group>"; };
-		7A07C87629CF3E1C00D7BFBC /* ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		7A07C8E229D06A3A00D7BFBC /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		7A07C8E329D06A3A00D7BFBC /* DebugLogging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugLogging.swift; sourceTree = "<group>"; };
+		7A07C8E429D06A3A00D7BFBC /* MockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockManager.swift; sourceTree = "<group>"; };
+		7A07C8E529D06A3A00D7BFBC /* RemoteConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigManager.swift; sourceTree = "<group>"; };
+		7A07C8E629D06A3B00D7BFBC /* Enviornment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enviornment.swift; sourceTree = "<group>"; };
+		7A07C8E729D06A3B00D7BFBC /* AcccessTokenRefreshHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcccessTokenRefreshHandler.swift; sourceTree = "<group>"; };
+		7A07C8E829D06A3B00D7BFBC /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		7A07C8E929D06A3B00D7BFBC /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		7A07C8EA29D06A3B00D7BFBC /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
+		7A07C8EB29D06A3C00D7BFBC /* SegmentLogOutReporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentLogOutReporter.swift; sourceTree = "<group>"; };
+		7A07C8EC29D06A3C00D7BFBC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		7A07C8ED29D06A3C00D7BFBC /* LoginSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSession.swift; sourceTree = "<group>"; };
 		7A0B1B332982B0B00004FD71 /* TvShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowView.swift; sourceTree = "<group>"; };
 		7A0B1B352982E0E70004FD71 /* CustomFocusedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFocusedButton.swift; sourceTree = "<group>"; };
 		7A0BF24029584847001DF15D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
@@ -224,9 +245,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A07C8AF29D0431F00D7BFBC /* RxSwift in Frameworks */,
-				7A07C8AD29D0431F00D7BFBC /* RxRelay in Frameworks */,
-				7A07C8AB29D0431F00D7BFBC /* RxCocoa in Frameworks */,
+				7A34C0DA29D9918D001E341D /* RxSwift in Frameworks */,
+				7A34C0D829D9918D001E341D /* RxRelay in Frameworks */,
+				7A34C0D629D9918D001E341D /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +269,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A07C8B229D0435400D7BFBC /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +347,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7A07C8FA29D06A4500D7BFBC /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				7A07C8E729D06A3B00D7BFBC /* AcccessTokenRefreshHandler.swift */,
+				7A07C8E929D06A3B00D7BFBC /* API.swift */,
+				7A07C8E229D06A3A00D7BFBC /* ApiClient.swift */,
+				7A07C8E329D06A3A00D7BFBC /* DebugLogging.swift */,
+				7A07C8E829D06A3B00D7BFBC /* Defaults.swift */,
+				7A07C8E629D06A3B00D7BFBC /* Enviornment.swift */,
+				7A07C8EC29D06A3C00D7BFBC /* Extension.swift */,
+				7A07C8ED29D06A3C00D7BFBC /* LoginSession.swift */,
+				7A07C8E429D06A3A00D7BFBC /* MockManager.swift */,
+				7A07C8E529D06A3A00D7BFBC /* RemoteConfigManager.swift */,
+				7A07C8EA29D06A3B00D7BFBC /* RequestError.swift */,
+				7A07C8EB29D06A3C00D7BFBC /* SegmentLogOutReporter.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		7A0BF23F29584832001DF15D /* Utility */ = {
 			isa = PBXGroup;
 			children = (
@@ -400,6 +439,7 @@
 		7A0CBAEB294C32810016E2DF = {
 			isa = PBXGroup;
 			children = (
+				7A07C8FA29D06A4500D7BFBC /* Networking */,
 				7A0CBAF6294C32810016E2DF /* DSTV_UI */,
 				7A0CBB07294C32850016E2DF /* DSTV_UITests */,
 				7A0CBB11294C32850016E2DF /* DSTV_UIUITests */,
@@ -579,7 +619,6 @@
 		7A1F6DC929CED46A00CBDFE9 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				7A07C87629CF3E1C00D7BFBC /* ApiClient.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -650,9 +689,9 @@
 			);
 			name = DSTV_UI;
 			packageProductDependencies = (
-				7A07C8AA29D0431F00D7BFBC /* RxCocoa */,
-				7A07C8AC29D0431F00D7BFBC /* RxRelay */,
-				7A07C8AE29D0431F00D7BFBC /* RxSwift */,
+				7A34C0D529D9918D001E341D /* RxCocoa */,
+				7A34C0D729D9918D001E341D /* RxRelay */,
+				7A34C0D929D9918D001E341D /* RxSwift */,
 			);
 			productName = DSTV_UI;
 			productReference = 7A0CBAF4294C32810016E2DF /* DSTV_UI.app */;
@@ -708,7 +747,6 @@
 			);
 			name = DSTV_TVOS;
 			packageProductDependencies = (
-				7A07C8B129D0435400D7BFBC /* RxSwift */,
 			);
 			productName = DSTV_TVOS;
 			productReference = 7A0CBB25294C32FC0016E2DF /* DSTV_TVOS.app */;
@@ -794,7 +832,7 @@
 			);
 			mainGroup = 7A0CBAEB294C32810016E2DF;
 			packageReferences = (
-				7A07C8A929D0431F00D7BFBC /* XCRemoteSwiftPackageReference "RxSwift" */,
+				7A34C0D429D9918D001E341D /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = 7A0CBAF5294C32810016E2DF /* Products */;
 			projectDirPath = "";
@@ -869,11 +907,14 @@
 				7A0BF24729599E49001DF15D /* MyTabView.swift in Sources */,
 				7A12E94A2955C46900FDC85C /* LiveTVViewModal.swift in Sources */,
 				7A12E9482955C46900FDC85C /* SettingViewModal.swift in Sources */,
+				7A07C8F429D06A3C00D7BFBC /* SegmentLogOutReporter.swift in Sources */,
 				7A062B342951EDF800278C14 /* CollectionView.swift in Sources */,
 				7A12E9712955C7F800FDC85C /* SettingTopView.swift in Sources */,
 				7A1943F72963FA8700E2ED52 /* ProfileView.swift in Sources */,
 				7A12E96B2955C7F800FDC85C /* PlayerView.swift in Sources */,
 				7A12E9672955C7F800FDC85C /* SegmentPicker.swift in Sources */,
+				7A07C8EE29D06A3C00D7BFBC /* Extension.swift in Sources */,
+				7A07C8F529D06A3C00D7BFBC /* MockManager.swift in Sources */,
 				7A06DF622968258300DDDBC5 /* Protocols.swift in Sources */,
 				7A12E95B2955C7F800FDC85C /* SettingView.swift in Sources */,
 				7A12E96D2955C7F800FDC85C /* NavigationBar.swift in Sources */,
@@ -881,22 +922,31 @@
 				7A12E9462955C46900FDC85C /* SettingDetailViewModal.swift in Sources */,
 				7A12E97E2955D0EC00FDC85C /* DownloadView.swift in Sources */,
 				7A12E9692955C7F800FDC85C /* TableCollectionView.swift in Sources */,
+				7A07C8EF29D06A3C00D7BFBC /* Enviornment.swift in Sources */,
 				7A062B232951D6A500278C14 /* LiveView.swift in Sources */,
 				7A12E9782955C82E00FDC85C /* ModelData.swift in Sources */,
 				7A0BF24B295C100B001DF15D /* CatchUpViewModel.swift in Sources */,
+				7A07C8F329D06A3C00D7BFBC /* RemoteConfigManager.swift in Sources */,
 				7A0CBB5229502D940016E2DF /* HomeView.swift in Sources */,
 				7A062B252951D6D700278C14 /* CatchUpView.swift in Sources */,
+				7A07C8F229D06A3C00D7BFBC /* LoginSession.swift in Sources */,
 				7A12E95F2955C7F800FDC85C /* HorizontalCell.swift in Sources */,
 				7A062B382951EE4000278C14 /* DataModel.swift in Sources */,
 				7A12E9732955C7F800FDC85C /* SettingToggleView.swift in Sources */,
 				7A0BF256295C618E001DF15D /* TabModifier.swift in Sources */,
+				7A07C8F029D06A3C00D7BFBC /* DebugLogging.swift in Sources */,
+				7A07C8F729D06A3C00D7BFBC /* RequestError.swift in Sources */,
 				7A12E9752955C7F800FDC85C /* ItemData.swift in Sources */,
+				7A07C8F829D06A3C00D7BFBC /* AcccessTokenRefreshHandler.swift in Sources */,
 				7A0BF254295C3723001DF15D /* DownloadViewModel.swift in Sources */,
+				7A07C8F629D06A3C00D7BFBC /* API.swift in Sources */,
+				7A07C8F929D06A3C00D7BFBC /* Defaults.swift in Sources */,
 				7A0CBAFA294C32810016E2DF /* ContentView.swift in Sources */,
 				7A0BF24F295C10E0001DF15D /* Constants.swift in Sources */,
 				7A12E9442955C46900FDC85C /* PlayerViewModal.swift in Sources */,
 				7A0BF24529599856001DF15D /* ListModifier.swift in Sources */,
 				7A0BF24129584847001DF15D /* Color.swift in Sources */,
+				7A07C8F129D06A3C00D7BFBC /* ApiClient.swift in Sources */,
 				7A12E95D2955C7F800FDC85C /* FormView.swift in Sources */,
 				7A0CBAF8294C32810016E2DF /* DSTV_UIApp.swift in Sources */,
 				7A12E9612955C7F800FDC85C /* LiveTVView.swift in Sources */,
@@ -956,7 +1006,6 @@
 				7A1943F82963FA8700E2ED52 /* ProfileView.swift in Sources */,
 				7A039A8B29CE01D500A50773 /* SportsViewModel.swift in Sources */,
 				7A0BF25D295DB029001DF15D /* Color.swift in Sources */,
-				7A07C87829CF3E1C00D7BFBC /* ApiClient.swift in Sources */,
 				7A1943FA2963FF6A00E2ED52 /* MovieItemView.swift in Sources */,
 				7A360A46299162A3000194E9 /* MoviesMainView.swift in Sources */,
 				7A12E9492955C46900FDC85C /* SettingViewModal.swift in Sources */,
@@ -1463,7 +1512,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		7A07C8A929D0431F00D7BFBC /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+		7A34C0D429D9918D001E341D /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
 			requirement = {
@@ -1474,24 +1523,19 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		7A07C8AA29D0431F00D7BFBC /* RxCocoa */ = {
+		7A34C0D529D9918D001E341D /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7A07C8A929D0431F00D7BFBC /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 7A34C0D429D9918D001E341D /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
 		};
-		7A07C8AC29D0431F00D7BFBC /* RxRelay */ = {
+		7A34C0D729D9918D001E341D /* RxRelay */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7A07C8A929D0431F00D7BFBC /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 7A34C0D429D9918D001E341D /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxRelay;
 		};
-		7A07C8AE29D0431F00D7BFBC /* RxSwift */ = {
+		7A34C0D929D9918D001E341D /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7A07C8A929D0431F00D7BFBC /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxSwift;
-		};
-		7A07C8B129D0435400D7BFBC /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7A07C8A929D0431F00D7BFBC /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 7A34C0D429D9918D001E341D /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
