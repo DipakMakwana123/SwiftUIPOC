@@ -439,6 +439,7 @@
 		7A0CBAEB294C32810016E2DF = {
 			isa = PBXGroup;
 			children = (
+				7A40FCC929D99EA800CA14B8 /* Common */,
 				7A07C8FA29D06A4500D7BFBC /* Networking */,
 				7A0CBAF6294C32810016E2DF /* DSTV_UI */,
 				7A0CBB07294C32850016E2DF /* DSTV_UITests */,
@@ -670,6 +671,13 @@
 				7A036DB52997A71F00ACD9DE /* SettingViewModel.swift */,
 			);
 			path = Setting;
+			sourceTree = "<group>";
+		};
+		7A40FCC929D99EA800CA14B8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

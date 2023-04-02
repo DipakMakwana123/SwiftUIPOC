@@ -6,10 +6,6 @@
 //
 
 import SwiftUI
-
-
-
-
 struct TableCollectionView: View {
 
     @State var memes = [Meme]()

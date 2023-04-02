@@ -1,6 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:Common"
+      name = "Common">
+      <Group
+         location = "group:/Users/30012/Github/SwiftUIPOC/Common/Networking"
+         name = "Networking">
+         <FileRef
+            location = "group:AcccessTokenRefreshHandler.swift">
+         </FileRef>
+         <FileRef
+            location = "group:API.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ApiClient.swift">
+         </FileRef>
+         <FileRef
+            location = "group:DebugLogging.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Defaults.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Enviornment.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Extension.swift">
+         </FileRef>
+         <FileRef
+            location = "group:LoginSession.swift">
+         </FileRef>
+         <FileRef
+            location = "group:MockManager.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RemoteConfigManager.swift">
+         </FileRef>
+         <FileRef
+            location = "group:RequestError.swift">
+         </FileRef>
+         <FileRef
+            location = "group:SegmentLogOutReporter.swift">
+         </FileRef>
+      </Group>
+   </Group>
    <FileRef
       location = "group:DSTV_UI.xcodeproj">
    </FileRef>
